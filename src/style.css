@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+body>div{
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 201px;
+    max-height: 201px;
+}
+#game{
+    font-size: 0;
+    border-top:1px solid black;
+    border-left: 1px solid #000;
+
+}
+.cell{
+    border-right: 1px solid black;
+    border-bottom: 1px solid #000;
+    min-width: 50px;
+    min-height: 50px;
+    display: inline-block;
+    background-color: white;
+}
+.cell:hover{
+    border: 1px solid currentColor;
+    color: dimgrey;
+    transform: scale(1.1)
+}
+button{
+    flex: 1 1 100%;
+}
