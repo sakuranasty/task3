@@ -1,3 +1,4 @@
 # task3
-memory game (unfinished)
+memory game (unfinished).
+
 run html in scr folder
